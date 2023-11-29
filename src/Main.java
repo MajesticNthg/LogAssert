@@ -1,17 +1,56 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.logging.Level;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+import java.util.Random;
 public class Main {
-    public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    private static final Logger log = Logger.getLogger(Main.class.getName());
+    public static void main(String[] args) throws Exception {
+        int[][] matrix = new int[][] {
+                new int[]{5, 4, 3, 2, 1},
+                new int[]{1, 2, 3, 4, 5},
+                new int[]{1, 1, 1, 1, 4},
+                new int[]{3, 3, 3, 3, 3},
+        };
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        int sum1 = 0; // общая сумма по строкам
+        int sum2 = 0; // общая сумма по столбцам
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        int[] sum_str = new int[matrix.length]; //  массив с суммой строк
+        int[] sum_stb = new int[matrix[1].length]; // массив с суммой столбцов
+
+        for (int x = 0; x < matrix.length; x++) {
+            for (int y = 0; y < matrix[1].length; y++)
+                sum_str[x] += matrix[x][y];
+            sum1 += sum_str[x];
+            System.out.print(sum_str[x] + " ");
         }
+        System.out.println();
+
+        log.log(Level.INFO, "info", new Throwable());
+
+        for (int x = 0; x < matrix[1].length; x++) {
+            for (int y = 0; y < matrix.length; y++)
+                sum_stb[x] += matrix[y][x];
+            sum2 += sum_stb[x];
+            System.out.print(sum_stb[x] + " ");
+        }
+        System.out.println();
+
+        log.log(Level.INFO, "info", new Throwable());
+
+        int [][] result = new int[][] {
+                sum_str,
+                sum_stb,
+        };
+
+        log.log(Level.INFO, "warning", new Throwable());
+
+        assert sum1 > 0; // условие, что первая сумма должна быть больше нуля
+        assert  sum2 > 0; // условие, что вторая сумма должна быть больше нуля
+
+        if (sum1 == sum2)
+            System.out.println("Суммы равны");
+        else
+            System.out.println("Суммы не равны");
     }
 }
