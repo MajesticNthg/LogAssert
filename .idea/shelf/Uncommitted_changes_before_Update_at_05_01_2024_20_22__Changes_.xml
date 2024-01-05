@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_05_01_2024_20_22_[Changes]" date="1704450166072" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_01_2024_20_22_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 05.01.2024 20:22 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value=".idea/sonarlint/securityhotspotstore/index.pb" />
+    <option name="AFTER_PATH" value=".idea/sonarlint/securityhotspotstore/index.pb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_01_2024_20_22_[Changes]/index.pb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".idea/sonarlint/issuestore/index.pb" />
+    <option name="AFTER_PATH" value=".idea/sonarlint/issuestore/index.pb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_01_2024_20_22_[Changes]/index1.pb" />
+  </binary>
+</changelist>
