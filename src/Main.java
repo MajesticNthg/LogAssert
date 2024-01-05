@@ -44,5 +44,6 @@ public class Main {
         int[] sum_str = new int[matrix.length]; //  массив с суммой строк
         int[] sum_stb = new int[matrix[1].length]; // массив с суммой столбцов
 
+
     }
 }
