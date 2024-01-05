@@ -1,0 +1,17 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Üâˆ8Ô©ËœÍ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Üâˆ8Ô©ËœÍ1
+m	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úøä™8Ô©ËœÍ1
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦û¾Æüÿÿÿÿ8Ô©ËœÍ1
+7
+java:S1220""Move this file to a named package.8Õ©ËœÍ1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Üâˆ8‘ªËœÍ1
+^
+java:S1126"AReplace this if-then-else statement by a single return statement.(òÚÃ—8…¾¶ÈÍ1
+
+java:S1130$"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8˜ªËœÍ1
+L	java:S106/"+Replace this use of System.out by a logger.(êéªšøÿÿÿÿ8¿ƒ‚Í1
+[
+java:S1128"9Remove this unused import 'java.util.logging.LogManager'.(›½ø·şÿÿÿÿ8¾¶ÈÍ1
+O
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8¾¶ÈÍ1
