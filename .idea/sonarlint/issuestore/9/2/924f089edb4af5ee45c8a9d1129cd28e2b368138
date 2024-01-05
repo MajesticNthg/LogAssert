@@ -8,9 +8,16 @@ java:S1220""Move this file to a named package.8Õ©ËœÍ1
 j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Üâˆ8‘ªËœÍ1
 ^
 java:S1126"AReplace this if-then-else statement by a single return statement.(òÚÃ—8…¾¶ÈÍ1
+]
+java:S1854-";Remove this useless assignment to local variable "sum_stb".(¦û¾Æüÿÿÿÿ8åÜÉÍ1
+X
+java:S1854,";Remove this useless assignment to local variable "sum_str".(úøä™8æÜÉÍ1
 
 java:S1130$"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8˜ªËœÍ1
-L	java:S106/"+Replace this use of System.out by a logger.(êéªšøÿÿÿÿ8¿ƒ‚Í1
+I
+java:S1481,",Remove this unused "sum_str" local variable.(úøä™8êÜÉÍ1
+N
+java:S1481-",Remove this unused "sum_stb" local variable.(¦û¾Æüÿÿÿÿ8êÜÉÍ1
 [
 java:S1128"9Remove this unused import 'java.util.logging.LogManager'.(›½ø·şÿÿÿÿ8¾¶ÈÍ1
 O
