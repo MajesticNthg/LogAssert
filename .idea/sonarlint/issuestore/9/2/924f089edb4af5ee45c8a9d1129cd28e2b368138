@@ -19,6 +19,6 @@ java:S1481,",Remove this unused "sum_str" local variable.(úøä™8êÜÉÍ1
 N
 java:S1481-",Remove this unused "sum_stb" local variable.(¦û¾Æüÿÿÿÿ8êÜÉÍ1
 [
-java:S1128"9Remove this unused import 'java.util.logging.LogManager'.(›½ø·şÿÿÿÿ8¾¶ÈÍ1
+java:S1128"9Remove this unused import 'java.util.logging.LogManager'.(›½ø·şÿÿÿÿ8³Ã¤ÉÍ1
 O
-java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8¾¶ÈÍ1
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8³Ã¤ÉÍ1
